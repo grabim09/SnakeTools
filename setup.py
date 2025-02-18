@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 VERSION = "0.1.0"
 
 setup(
-    name="snaketools",
+    name="utilipy",
     version=VERSION,
     packages=find_packages(),
     install_requires=[],
