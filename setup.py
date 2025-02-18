@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 VERSION = "0.1.0"
 
 setup(
-    name="utilipy",
+    name="pykitten",
     version=VERSION,
     packages=find_packages(),
     install_requires=[],
