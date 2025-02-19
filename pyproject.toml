@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pykitten"
-version = "0.1.0"
+version = "0.1.1"
 description = "A versatile Python toolkit for various utilities"
 readme = "README.md"
 authors = [{ name = "Agra Bima Yuda", email = "agra.bima.ab@gmail.com" }]

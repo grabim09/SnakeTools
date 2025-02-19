@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
 setup(
     name="pykitten",
     version=VERSION,
-    packages=find_packages(),
+    packages=find_packages(include=["pykitten", "pykitten.*"]),
+    include_package_data=True,
     install_requires=[],
     author="Agra Bima Yuda",
     author_email="agra.bima.ab@gmail.com",
